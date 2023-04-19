@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #191d24;
+  color: rgb(166, 173, 186);
+}
+
+.copyright {
+  font-size: 15px;
+  margin-top: 50px;
+}

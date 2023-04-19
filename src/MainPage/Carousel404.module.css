@@ -1,0 +1,73 @@
+.Container404 {
+  min-height: 630px;
+  padding: 20px 16px 32px 16px;
+  background: rgb(42, 48, 60);
+  margin-top: 40px;
+}
+
+.Section404 {
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(166, 173, 186);
+}
+
+.Section404 > h1 {
+  margin: 0;
+  font-size: 150px;
+}
+
+.Section404 > p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.Section404 > a {
+  border: 1px solid #641ae6;
+  border-radius: 16px;
+  background-color: #641ae6;
+  color: #ffffff;
+  padding: 18px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Section404 > a:hover {
+  background-color: #4c19a7fc;
+  border: 1px solid #4c19a7fc;
+}
+
+@media (max-width: 470px) {
+  .Container404 {
+    min-height: 600px;
+    padding: 20px 16px 32px 16px;
+    padding-top: 40px;
+  }
+  
+  .Section404 {
+    height: 600px;
+  }
+  
+  .Section404 > h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .Section404 > p {
+    font-size: 18px;
+  }
+
+  .Section404 > a {
+    border-radius: 6px;
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}

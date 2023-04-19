@@ -1,0 +1,8 @@
+.sns {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.sns > a {
+  padding: 0 10px;
+}

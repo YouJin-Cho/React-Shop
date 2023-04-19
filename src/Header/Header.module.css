@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0; 
+
+  display: flex;
+  padding: 0 16px;
+  height: 60px;
+  min-height: 60px;
+  align-items: center;
+  background-color: #191d24;
+  color: #ffffff;
+  font-weight: bold;
+  z-index: 99;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}

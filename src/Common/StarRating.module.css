@@ -1,0 +1,14 @@
+.starContainer {
+  width: 120px;
+  height: 20px;
+  font-size: 20px;
+  transform: translateY(-2px);
+}
+
+.starsFill {
+  color: rgb(255, 215, 0);
+}
+
+.starsNone {
+  color: rgb(255, 215, 0);
+}

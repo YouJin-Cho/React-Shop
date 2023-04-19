@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 40px;
+  visibility: visible;
+}
+
+.tab {
+  display: flex;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.tab:hover {
+  background-color: #a6adba;
+  border-radius: 6px;
+}
+
+@media (max-width:770px) {
+  .tabsContainer {
+    visibility: hidden;
+  }
+
+  .tabs {
+    display: none;
+  }
+}

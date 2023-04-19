@@ -1,0 +1,44 @@
+.logoSection {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 20px;
+  min-height: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 6px;
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #a6adba;
+  border-radius: 6px;
+}
+
+@media (max-width: 1025px) {
+  .hamburger {
+    display: block;
+  }
+
+  .logoSection {
+    justify-content: normal;
+  }
+  
+  .h1 {
+    font-size: 17px;
+  }
+}
+
+

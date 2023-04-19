@@ -1,0 +1,82 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(32, 37, 45, 0.48);
+}
+
+.modalBox {
+  width: 510px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 16px;
+  background: rgba(42, 48, 60);
+  color: #a6adba;
+  padding: 24px;
+  opacity: 1;
+  z-index: 99;
+}
+
+.modalBox > h3 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.modalBox > p {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.label > span:first-child {
+  border: none;
+  padding: 15px;
+  margin-right: 10px;
+  background: #641be6;
+  border-radius: 6px;
+}
+
+.label > span:first-child:hover {
+  background-color: #4c19a7fc;
+}
+
+.label > span:last-child {
+  border: 1px solid;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.label > span:last-child:hover {
+  background-color:rgb(42, 48, 60);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .modalContainer {
+    position: fixed;
+    top: 80%;
+    transition: visibility 0.3s ease-in-out;
+  }
+  
+  .modalBox {
+    width: 100%;
+    height: 200px;
+    transform: visibility;
+  }
+}
